@@ -4,8 +4,7 @@ This repository is based on [Joyent mibe](https://github.com/joyent/mibe).
 
 ## description
 
-Basic core.io mibe image with default setup of infrastructure services like
-munin and remote syslog. This should be the default image for all core.io zones.
+Minimal 0x61 mibe image
 
 ## mdata variables
 
@@ -28,16 +27,6 @@ support rsa keys.
 
 - `root_ssh_rsa`: private ssh rsa key for root user
 - `root_ssh_rsa_pub`: public ssh key for root user (mostly not required)
-
-
-### nullmailer
-
-To have cron emails on errors we like to configure nullmailer as local smtp server.
-
-- `mail_smarthost`: hostname of remote smtp server
-- `mail_auth_user`: smtp username for authentication
-- `mail_auth_pass`: smtp password for authentication
-- `mail_adminaddr`: admin email address for everything from root@localhost
 
 ### ssh daemon
 
