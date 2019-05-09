@@ -1,11 +1,11 @@
 {
   "name": "core-base",
-  "version": "18.4.2",
-  "description": "Base core.io image",
-  "organization": "SkyLime",
+  "version": "19.1.0,
+  "description": "Base 0x61 image",
+  "organization": "0x61",
   "brand": "Instance",
-  "homepage": "https://github.com/skylime/mi-core-base",
-  "base": "c2c31b00-1d60-11e9-9a77-ff9f06554b0f",
+  "homepage": "https://github.com/archfan/mi-core-base",
+  "base": "57472628-57e9-11e9-858d-6f4f97daf7ad",
   "customer_metadata": {
     "admin_authorized_keys": {
       "type": "text",
@@ -26,23 +26,7 @@
     "root_known_hosts": {
       "type": "text",
       "description": "known_hosts file information for root user"
-    },
-    "mail_smarthost": {
-      "type": "text",
-      "description": "hostname of remote smtp server"
-    },
-    "mail_auth_user": {
-      "type": "text",
-      "description": "smtp username if authentication is required"
-    },
-    "mail_auth_pass": {
-      "type": "text",
-      "description": "smtp password"
-    },
-    "mail_adminaddr": {
-      "type": "text",
-      "description": "admin email address alias for all mails to root@localhost"
-    },
+    }
     "ssh_host_rsa_key": {
       "type": "text",
       "description": "private SSH rsa key for the host daemon"
@@ -58,10 +42,6 @@
     "ssh_host_dsa_key.pub": {
       "type": "text",
       "description": "public SSH dsa key for the host daemon"
-    },
-    "munin_master_allow": {
-      "type": "text",
-      "description": "ip addresses (alternative hostname) of the munin master node"
     }
   }
 }
