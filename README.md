@@ -29,11 +29,6 @@ support rsa keys.
 - `root_ssh_rsa`: private ssh rsa key for root user
 - `root_ssh_rsa_pub`: public ssh key for root user (mostly not required)
 
-### munin
-
-List of ip addresses of the munin master server that is allowed to connect. The ip addresses should be seperated by whitespace or newline.
-
-- `munin_master_allow`: ip addresses (alternative hostname) of the munin master node
 
 ### nullmailer
 
