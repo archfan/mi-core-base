@@ -4,4 +4,3 @@ logadm -w '/var/log/authlog'              -A 7d -p 1d -a 'kill -HUP `cat /var/ru
 logadm -w '/var/log/syslog'               -A 7d -p 1d -a 'kill -HUP `cat /var/run/*syslog*.pid`'
 logadm -w '/var/adm/messages'             -A 7d -p 1d -a 'kill -HUP `cat /var/run/*syslog*.pid`'
 logadm -w '/var/log/maillog'              -A 7d -p 1d -a 'kill -HUP `cat /var/run/*syslog*.pid`'
-logadm -w '/var/log/munin/munin-node.log' -A 7d -p 1d -c
