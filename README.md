@@ -8,12 +8,6 @@ Minimal 0x61 mibe image
 
 ## mdata variables
 
-### admin authorized_keys
-
-Configure ssh public key for admin user via `mdata` variable.
-
-- `admin_authorized_keys`: ssh public key for the admin user
-
 ### root authorized_keys
 
 Configure ssh public key for root user via `mdata` variable.
