@@ -1,5 +1,10 @@
 # Changelog
 
+## 19.1.0
+
+* Version bump to 19.1.0
+* Removed nullmailer and mibe
+
 ## 18.4.2
 
 ### New
