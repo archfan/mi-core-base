@@ -7,10 +7,6 @@
   "homepage": "https://github.com/archfan/mi-core-base",
   "base": "57472628-57e9-11e9-858d-6f4f97daf7ad",
   "customer_metadata": {
-    "admin_authorized_keys": {
-      "type": "text",
-      "description": "SSH public authorized key(s) for the admin user"
-    },
     "root_authorized_keys": {
       "type": "text",
       "description": "SSH public authorized key(s) for the root user"
